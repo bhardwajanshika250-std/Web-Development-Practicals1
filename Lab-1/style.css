@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #173b65;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #245b91;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+h2 {
+    color: #173b65;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #245b91;
+    margin: 20px 0 10px;
+}
+
+.architecture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item {
+    background-color: #245b91;
+    color: white;
+    padding: 12px;
+    margin: 5px auto;
+    width: 65%;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.arrow {
+    color: #173b65;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.roadmap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.step {
+    background-color: #e0edf9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #173b65;
+}
+
+footer {
+    background-color: #173b65;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Architecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Application Architecture</h1>
+        <p>Course Roadmap and Browser-Server Communication</p>
+    </header>
+
+    <nav>
+        <a href="#architecture">Architecture</a>
+        <a href="#request">Request Flow</a>
+        <a href="#roadmap">Course Roadmap</a>
+    </nav>
+
+    <section id="architecture">
+        <h2>1. Web Application Architecture</h2>
+        <p>
+            Web application architecture explains how a browser,
+            web server and database communicate with each other
+            to display a webpage.
+        </p>
+
+        <div class="architecture">
+            <div class="item">User</div>
+            <div class="arrow">↓</div>
+            <div class="item">Web Browser</div>
+            <div class="arrow">↓</div>
+            <div class="item">Internet / HTTP Request</div>
+            <div class="arrow">↓</div>
+            <div class="item">Web Server</div>
+            <div class="arrow">↓</div>
+            <div class="item">Database</div>
+            <div class="arrow">↓</div>
+            <div class="item">HTTP Response</div>
+            <div class="arrow">↓</div>
+            <div class="item">Webpage Displayed</div>
+        </div>
+    </section>
+
+    <section id="request">
+        <h2>2. Trace a Webpage Request</h2>
+        <p>When a user opens a website, these steps take place:</p>
+
+        <ol>
+            <li>User enters a website URL in the browser.</li>
+            <li>Browser finds the server using DNS.</li>
+            <li>Browser sends an HTTP or HTTPS request.</li>
+            <li>Web server receives and processes the request.</li>
+            <li>Server may communicate with a database.</li>
+            <li>Server sends an HTTP response to the browser.</li>
+            <li>Browser renders HTML, CSS and JavaScript.</li>
+        </ol>
+
+        <h3>How to trace using Chrome DevTools</h3>
+        <ol>
+            <li>Open Google Chrome.</li>
+            <li>Visit any website.</li>
+            <li>Press F12 to open Developer Tools.</li>
+            <li>Click on the Network tab.</li>
+            <li>Refresh the webpage.</li>
+            <li>Click any request to see Headers, Response and Status Code.</li>
+        </ol>
+    </section>
+
+    <section id="roadmap">
+        <h2>3. Course Roadmap</h2>
+
+        <div class="roadmap">
+            <div class="step">HTML - Structure of Webpages</div>
+            <div class="step">CSS - Styling and Layout</div>
+            <div class="step">JavaScript - Web Interactivity</div>
+            <div class="step">DOM Manipulation</div>
+            <div class="step">HTTP and APIs</div>
+            <div class="step">Frontend and Backend Basics</div>
+            <div class="step">Build a Web Application</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>HTML-CSS Practical Assignment | Lab-1</p>
+    </footer>
+
+</body>
+</html>
