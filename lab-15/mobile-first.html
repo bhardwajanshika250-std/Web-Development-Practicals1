@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile First Responsive Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Base styles for phones (stacked) */
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* Media query for screens 600px wide and up (side-by-side) */
+        @media (min-width: 600px) {
+            .cards {
+                flex-direction: row;
+            }
+            .card {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mobile-First Cards</h1>
+    <div class="cards">
+        <div class="card">
+            <h2>Card One</h2>
+            <p>This is the first card content that stacks on small screens and sits side-by-side on larger screens.</p>
+        </div>
+        <div class="card">
+            <h2>Card Two</h2>
+            <p>This is the second card content designed using a mobile-first media query layout.</p>
+        </div>
+    </div>
+</body>
+</html>

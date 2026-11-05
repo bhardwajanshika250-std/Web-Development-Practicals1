@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop - Wrapping Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .shop-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            width: 180px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stationery Shop</h1>
+    <div class="shop-container">
+        <div class="card">
+            <h3>Notebook</h3>
+            <p>Price: 60</p>
+        </div>
+        <div class="card">
+            <h3>Pen</h3>
+            <p>Price: 15</p>
+        </div>
+        <div class="card">
+            <h3>Bag</h3>
+            <p>Price: 350</p>
+        </div>
+        <div class="card">
+            <h3>Book</h3>
+            <p>Price: 120</p>
+        </div>
+    </div>
+</body>
+</html>
+
+Task 2: centred-cards.html
+HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centred Cards</title>
+    <style>
+        .row { display: flex; justify-content: center; align-items: center; gap: 20px; height: 300px; background-color: #f9f9f9; }
+        .card { background-color: white; border: 1px solid #ccc; padding: 20px; border-radius: 8px; width: 150px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="card"><h3>Starter</h3><p>199</p></div>
+        <div class="card"><h3>Standard</h3><p>349</p></div>
+        <div class="card"><h3>Premium</h3><p>499</p></div>
+    </div>
+</body>
+</html>
+Task 3: wrapping-cards.html
+HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationery Shop - Wrapping Cards</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .shop-container { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px; }
+        .card { background-color: #f4f4f4; border: 1px solid #ddd; padding: 20px; border-radius: 8px; width: 180px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Stationery Shop</h1>
+    <div class="shop-container">
+        <div class="card"><h3>Notebook</h3><p>Price: 60</p></div>
+        <div class="card"><h3>Pen</h3><p>Price: 15</p></div>
+        <div class="card"><h3>Bag</h3><p>Price: 350</p></div>
+        <div class="card"><h3>Book</h3><p>Price: 120</p></div>
+    </div>
+</body>
+</html>
+6. Screenshots & Output Evidence
+Task 1 Output: ![Task 1 Nav Flex](images/task1.png)   
+Screenshot 2026-11-04 191358.png
+
+Task 2 Output: ![Task 2 Centred Cards](images/task2.png)   
+Screenshot 2026-11-04 191358.png
+
+Task 3 Output: ![Task 3 Wrapping Cards](images/task3.png)   
+Screenshot 2026-11-04 191358.png
+
+7. Key Learning Outcomes
+Mastered the creation of horizontal layout bars using display: flex.
+
+Understood alignment properties like justify-content and align-items for centering components.
+
+Learned how flex-wrap enables responsive wrapping behavior on smaller screens.   
+Screenshot 2026-11-04 191358.png
+
+8. Common Errors & Troubleshooting
+Items Overflowing on Small Screens: Without flex-wrap: wrap, flex items shrink forcefully or overflow horizontally. Resolved by applying flex-wrap: wrap to container elements[cite: 10].
+
+9. Viva / Interview Questions
+Q: What is the default value of flex-wrap in CSS Flexbox?
+
+A: The default value is nowrap, which forces all items onto a single line.
+
+Q: How do you align flex items centrally along the main axis?
+
+A: By setting justify-content: center; on the flex container.
+
+10. Submission Checklist
+[x] Task 1 (nav-flex.html) code & screenshot[cite: 10]
+
+[x] Task 2 (centred-cards.html) code & screenshot[cite: 10]
+
+[x] Task 3 (wrapping-cards.html) code & screenshot[cite: 10]
+
+[x] Complete README documentation
+
+
+---
+
